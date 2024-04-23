@@ -1,5 +1,3 @@
-import pytest;
-
 from problems import problem1
 
 def testProblem1():
