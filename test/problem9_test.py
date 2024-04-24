@@ -9,7 +9,6 @@ def testProblem2():
     assert not isPalindrome(-121);
     assert not isPalindrome(10);
     
-    print(121 == 121);
     assert isPalindromeWithoutString(121);
     assert not isPalindromeWithoutString(-121);
     assert not isPalindromeWithoutString(10);
