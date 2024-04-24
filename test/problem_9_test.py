@@ -1,7 +1,7 @@
-from problems import problem_9
+import problems
 
 def testProblem2():
-    sol = problem_9.Solution();
+    sol = problems.problem_9.Solution();
     isPalindrome = sol.isPalindrome;
     isPalindromeWithoutString = sol.isPalindromeWithoutString;
     

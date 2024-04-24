@@ -1,7 +1,7 @@
-from problems import problem_1
+import problems
 
 def testProblem1():
-    sol = problem_1.Solution1();
+    sol = problems.problem_1.Solution1();
     twoSum = sol.twoSum;
     betterTwoSum = sol.BetterTwoSum;
     
