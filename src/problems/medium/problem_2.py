@@ -12,7 +12,6 @@ class ListNode:
         p: Optional[ListNode] = self;
         while (p != None):
             stringList += str(p.val) + "->";
-            print(stringList);
             p = p.next;
         return stringList;
 class Solution:
@@ -50,7 +49,6 @@ class Solution:
         sum: int = 0;
         
         while(pShorter != None and pLonger != None and pResult != None):
-            print(pShorter.val, pLonger.val);
             sum = pShorter.val + pLonger.val + remainder;
             if (sum >= 10):
                 pResult.val = sum % 10;
@@ -58,15 +56,10 @@ class Solution:
             else: 
                 pResult.val = sum;
                 remainder = 0; 
-            print(pResult.val);
             if (pShorter.next != None):
                 pResult.next = ListNode();
                 pResult = pResult.next;
-            print(pResult.val);
             pShorter = pShorter.next;
             pLonger = pLonger.next;
         if remainder != 0: pResult.next = ListNode(remainder);
         return result;
-        
-sol = Solution();
-print(sol.addTwoNumbers(ListNode(1, ListNode(2, ListNode(3))), ListNode(1, ListNode(2))).toString());
