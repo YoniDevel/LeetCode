@@ -1,4 +1,4 @@
-from src.problems import problem_14;
+from src.problems.easy import problem_14;
 
 def testProblem2():
     sol = problem_14.Solution();

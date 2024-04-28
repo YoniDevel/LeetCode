@@ -1,7 +1,7 @@
-from src.problems import problem_1;
+from src.problems.easy import problem_1;
 
 def testProblem1():
-    sol = problem_1.Solution1();
+    sol = problem_1.Solution();
     twoSum = sol.twoSum;
     betterTwoSum = sol.BetterTwoSum;
     
