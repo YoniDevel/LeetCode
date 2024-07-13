@@ -8,8 +8,8 @@ class Solution:
             'C': 100,
             'D': 500,
             'M': 1000
-        };
-        potentialRomanArray: list[str] = ['I', 'X', 'C'];
+        }
+        potentialRomanArray: list[str] = ['I', 'X', 'C']
         specialRomanDict: dict = {
             'IV': 4,
             'IX': 9,
@@ -17,19 +17,20 @@ class Solution:
             'XC': 90,
             'CD': 400,
             'CM': 900
-        };
-        sum: int = 0; i: int = 0;
+        }
+        sum: int = 0 
+        i: int = 0
         
         while (i < len(s)):
             if s[i] in potentialRomanArray:
-                withNext = s[i] + s[i + 1] if i < len(s) - 1 else s[i];
+                withNext = s[i] + s[i + 1] if i < len(s) - 1 else s[i]
                 if withNext in specialRomanDict:
-                    sum += specialRomanDict[withNext];
-                    i += 2;
-                    continue;
-            sum += romanDict[s[i]];
-            i += 1;
-        return sum;
+                    sum += specialRomanDict[withNext]
+                    i += 2
+                    continue
+            sum += romanDict[s[i]]
+            i += 1
+        return sum
             
             
         

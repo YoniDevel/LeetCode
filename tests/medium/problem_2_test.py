@@ -1,9 +1,9 @@
-from src.problems.medium import problem_2;
-ListNode = problem_2.ListNode;
+from src.problems.medium import problem_2
+ListNode = problem_2.ListNode
 
 def testProblem1():
-    sol = problem_2.Solution();
-    addTwoNumbers = sol.addTwoNumbers;
+    sol = problem_2.Solution()
+    addTwoNumbers = sol.addTwoNumbers
     
     assert addTwoNumbers(
         ListNode(1, ListNode(2, ListNode(3))),
