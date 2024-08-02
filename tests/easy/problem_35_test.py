@@ -1,6 +1,6 @@
 from src.problems.easy import problem_35
 
-def testProblem1():
+def testProblem35():
     sol = problem_35.Solution()
     searchInsert = sol.searchInsert
     betterSearchInsert = sol.betterSearchInsert

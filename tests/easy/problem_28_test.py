@@ -1,6 +1,6 @@
 from src.problems.easy import problem_28
 
-def testProblem1():
+def testProblem28():
     sol = problem_28.Solution()
     strStr = sol.strStr
     

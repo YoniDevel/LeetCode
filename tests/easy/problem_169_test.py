@@ -1,6 +1,6 @@
 from src.problems.easy import problem_169
 
-def testProblem1():
+def testProblem169():
     sol = problem_169.Solution()
     majorityElement = sol.majorityElement
     

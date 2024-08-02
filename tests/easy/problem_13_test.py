@@ -1,6 +1,6 @@
 from src.problems.easy import problem_13
 
-def testProblem2():
+def testProblem13():
     sol = problem_13.Solution()
     romanToInt = sol.romanToInt
     

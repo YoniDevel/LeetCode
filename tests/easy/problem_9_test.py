@@ -1,6 +1,6 @@
 from src.problems.easy import problem_9
 
-def testProblem2():
+def testProblem9():
     sol = problem_9.Solution()
     isPalindrome = sol.isPalindrome
     isPalindromeWithoutString = sol.isPalindromeWithoutString

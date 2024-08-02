@@ -1,6 +1,6 @@
 from src.problems.easy import problem_66
 
-def testProblem1():
+def testProblem66():
     sol = problem_66.Solution()
     plusOne = sol.plusOne
     

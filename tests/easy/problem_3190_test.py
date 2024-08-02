@@ -1,6 +1,6 @@
 from src.problems.easy import problem_3190
 
-def testProblem1():
+def testProblem3190():
     sol = problem_3190.Solution()
     minimumOperations = sol.minimumOperations
     

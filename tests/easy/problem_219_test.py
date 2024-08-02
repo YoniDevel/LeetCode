@@ -1,6 +1,6 @@
 from src.problems.easy import problem_219
 
-def testProblem1():
+def testProblem219():
     sol = problem_219.Solution()
     containsNearbyDuplicate = sol.containsNearbyDuplicate
     

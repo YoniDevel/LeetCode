@@ -1,6 +1,6 @@
 from src.problems.easy import problem_704
 
-def testProblem1():
+def testProblem704():
     sol = problem_704.Solution()
     search = sol.search
     

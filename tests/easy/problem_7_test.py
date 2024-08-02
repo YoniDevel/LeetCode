@@ -1,6 +1,6 @@
 from src.problems.medium import problem_7
 
-def testProblem1():
+def testProblem7():
     sol = problem_7.Solution()
     reverse = sol.reverse
     
