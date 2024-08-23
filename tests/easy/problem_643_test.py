@@ -1,6 +1,6 @@
 from src.problems.easy import problem_643
 
-def testProblem349():
+def testProblem643():
     sol = problem_643.Solution()
     findMaxAverage = sol.findMaxAverage
     
