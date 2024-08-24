@@ -1,6 +1,6 @@
 from src.problems.medium import problem_3
 
-def testProblem1():
+def testProblem3():
     sol = problem_3.Solution()
     lengthOfLongestSubstring = sol.lengthOfLongestSubstring
     

@@ -1,6 +1,6 @@
 from src.problems.medium import problem_592
 
-def testProblem1():
+def testProblem592():
     sol = problem_592.Solution()
     fractionAddition = sol.fractionAddition
     

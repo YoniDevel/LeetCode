@@ -1,7 +1,7 @@
 from src.problems.medium import problem_2
 ListNode = problem_2.ListNode
 
-def testProblem1():
+def testProblem2():
     sol = problem_2.Solution()
     addTwoNumbers = sol.addTwoNumbers
     
