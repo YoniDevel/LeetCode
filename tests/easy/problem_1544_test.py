@@ -1,6 +1,6 @@
 from src.problems.easy import problem_1544
 
-def testProblem1470():
+def testProblem1544():
     sol = problem_1544.Solution()
     makeGood = sol.makeGood
     
