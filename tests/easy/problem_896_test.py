@@ -1,6 +1,6 @@
 from src.problems.easy import problem_896
 
-def testProblem704():
+def testProblem896():
     sol = problem_896.Solution()
     isMonotonic = sol.isMonotonic
     
