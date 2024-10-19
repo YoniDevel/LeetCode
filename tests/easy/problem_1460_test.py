@@ -1,6 +1,6 @@
 from src.problems.easy import problem_1460
 
-def testProblem1470():
+def testProblem1460():
     sol = problem_1460.Solution()
     canBeEqual = sol.canBeEqual
     
