@@ -1,6 +1,6 @@
 from src.problems.hard import problem_1106
 
-def testProblem1331():
+def testProblem1106():
     sol = problem_1106.Solution()
     parseBoolExpr = sol.parseBoolExpr
     
