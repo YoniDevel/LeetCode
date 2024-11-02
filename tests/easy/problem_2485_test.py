@@ -1,6 +1,6 @@
 from src.problems.easy import problem_2485
 
-def testProblem1470():
+def testProblem2485():
     sol = problem_2485.Solution()
     pivotInteger = sol.pivotInteger
     
