@@ -1,3 +1,4 @@
+from heapq import heapify, heappop, heappush
 from typing import List
 
 
@@ -9,4 +10,15 @@ class Solution:
                 if nums[i] == min_val:
                     nums[i] *= multiplier
                     break
+        return nums
+    
+    def betterGetFinalState(self, nums: List[int], k: int, multiplier: int) -> List[int]:
+        pq = [(val, i) for i, val in enumerate(nums)]
+        heapify(pq)
+
+        for _ in range(k):
+            _, i = heappop(pq)
+            nums[i] *= multiplier
+            heappush(pq, (nums[i], i))
+
         return nums
